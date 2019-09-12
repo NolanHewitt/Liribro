@@ -37,7 +37,7 @@ else if (term === "spotify") {
 }
 else if (term === "doathing") {
 
-    fs.readFile('random.txt', 'utf8', function(error, data){
+    fs.readFile('random.txt', 'utf8', function(junk, data){
         var dataArr = data.split(',');
         console.log(dataArr);
 
